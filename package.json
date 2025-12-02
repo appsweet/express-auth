@@ -1,5 +1,5 @@
 {
-  "name": "@appsweet/express-auth",
+  "name": "@appsweetjs/express-auth",
   "version": "0.0.1",
   "description": "A TypeScript library for Express authentication.",
   "main": "./dist/index.js",
