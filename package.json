@@ -29,7 +29,10 @@
     "format:check": "prettier --check \"src/**/*.ts\" \"tests/**/*.ts\"",
     "typecheck": "tsc --noEmit",
     "prepublishOnly": "npm run build && npm run test && npm run lint",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "release:patch": "npm version patch && git push --follow-tags",
+    "release:minor": "npm version minor && git push --follow-tags",
+    "release:major": "npm version major && git push --follow-tags"
   },
   "keywords": [
     "express",
